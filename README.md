@@ -23,7 +23,7 @@ A web application that performs real-time facial recognition using face-api.js, 
 
 1. Clone the repository:
 ```bash
-git clone [<repository-url>](https://github.com/Devansh-Bhagania/Facefeed)
+git clone https://github.com/Devansh-Bhagania/Facefeed
 cd face-recognition-demo
 ```
 
@@ -84,6 +84,8 @@ npm run dev
    - Add detection confidence threshold
    - Optimize model loading
 
+5 **Upload Image Feature**
+  - Developed face recognition for Static image Upload.
 
 
 ## Contributing
