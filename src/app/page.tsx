@@ -50,7 +50,14 @@ export default function Home() {
               <Controls />
             </div>
           </div>
+
+         
         </div>
+        <div>
+            <p className="mt-8 text-gray-600 text-center justify-end">
+              Developed by Devansh Bhagania
+            </p>
+          </div>
       </main>
     </Provider>
   );
