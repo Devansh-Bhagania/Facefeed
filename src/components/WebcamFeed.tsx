@@ -145,7 +145,7 @@ const WebcamFeed: React.FC = () => {
         ref={videoRef}
         autoPlay
         muted
-        className="w-full max-w-2xl rounded-lg shadow-lg"
+        className="w-full max-w-2xl rounded-lg "
         style={{ display: isWebcamActive ? 'block' : 'none' }}
       />
       <canvas
