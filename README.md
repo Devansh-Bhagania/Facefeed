@@ -1,3 +1,4 @@
+# FaceFeed
 # Face Recognition Demo
 
 A web application that performs real-time facial recognition using face-api.js, built with Next.js, TypeScript, and Redux.
@@ -22,7 +23,7 @@ A web application that performs real-time facial recognition using face-api.js, 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Devansh-Bhagania/Facefeed)
 cd face-recognition-demo
 ```
 
@@ -37,8 +38,7 @@ npm install
 mkdir -p public/models
 
 # Download required models
-# You can download these from the face-api.js repository or use the following links:
-# https://github.com/justadudewhohacks/face-api.js/tree/master/weights
+
 ```
 
 4. Start the development server:
@@ -46,7 +46,7 @@ mkdir -p public/models
 npm run dev
 ```
 
-5. Open your browser and navigate to `http://localhost:9002`
+5. Open your browser and navigate to `http://localhost:9000`
 
 ## Project Structure
 
@@ -84,21 +84,7 @@ npm run dev
    - Add detection confidence threshold
    - Optimize model loading
 
-5. **UI/UX Improvements**
-   - Add loading indicators
-   - Implement error handling
-   - Add settings panel for detection parameters
-   - Add dark mode support
 
-6. **Testing**
-   - Add unit tests
-   - Add integration tests
-   - Add performance tests
-
-7. **Deployment**
-   - Add CI/CD pipeline
-   - Configure for production deployment
-   - Add environment variables for configuration
 
 ## Contributing
 
